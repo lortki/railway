@@ -1,0 +1,19 @@
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+
+  max-width: 1000px;
+  width: 100%;
+  padding: 20px;
+  margin: auto;
+
+  input, select, button {
+    width: 100%;
+  }
+
+  background-color: white;
+  border-radius: 16px;
+}

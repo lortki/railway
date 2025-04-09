@@ -1,19 +1,1 @@
-.filter {
-  div {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 50px;
-  }
 
-  padding: 4px;
-  background-color: white;
-  width: 500px;
-  padding: 8px;
-  border-radius: 8px;
-  margin: auto;
-
-  app-filter {
-    background-color: 100%;
-  }
-}
