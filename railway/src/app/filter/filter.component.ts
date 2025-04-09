@@ -10,5 +10,6 @@ import { Component, Input, NgModule } from '@angular/core';
 })
 
 export class FilterComponent {
+  @Input() Message ?: string;
   @Input() Stations : any;
 }

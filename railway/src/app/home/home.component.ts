@@ -16,9 +16,13 @@ export class HomeComponent {
 
   stations ?: Observable<any>;
 
+  fromMsg = "საიდან"
+  whereMsg = "სად"
+
   ngOnInit(){
     this.railway.getStations().subscribe(data => {
       this.stations = data;
+      console.log(this.stations)
     })
   }
 }
