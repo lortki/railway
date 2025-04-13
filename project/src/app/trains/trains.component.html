@@ -1,0 +1,8 @@
+<section class="trains">
+  <div *ngFor="let train of trains; let index=index">
+    <app-train
+      [train]="train"
+      >
+    </app-train>
+  </div>
+</section>

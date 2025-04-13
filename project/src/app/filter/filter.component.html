@@ -1,0 +1,12 @@
+<section>
+<input class="form-control" type="date" placeholder="Search" aria-label="Search" required>
+  <select class="form-select" aria-label="Default select example">
+    <option selected>საიდან</option>
+    <option *ngFor="let station of Stations">{{station.name}}</option>
+  </select>
+  <select class="form-select" aria-label="Default select example">
+    <option selected>სად</option>
+    <option *ngFor="let station of Stations">{{station.name}}</option>
+  </select>
+  <button type="button" class="btn btn-primary btn-md">ძებნა</button>
+</section>
